@@ -1,16 +1,18 @@
 #include <stdio.h>
 
-void main() {
-    int a, b, result;
+int main() {
+    int num1, num2, sum;
 
     printf("Enter first number: ");
-    scanf("%d", &a);
+    scanf("%d", &num1);
 
     printf("Enter second number: ");
-    scanf("%d", &b);
+    scanf("%d", &num2);
 
-    result = a - b;
+    sum = num1 + num2;
 
-    printf("Difference = %d\n", result);
+    printf("Sum = %d\n", sum);
+
+    return 0;
 }
 
